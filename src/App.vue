@@ -2,11 +2,10 @@
   <div :class="['layout', { dark: darkMode }]">
     <!-- SIDEBAR -->
     <aside :class="['sidebar', { open: menuOpen }]">
-      <h2 class="logo">📱 Reparaciones</h2>
+      <h2 class="logo">📱 Celltech</h2>
 
       <nav>
         <router-link to="/" @click="cerrarMenu">👥 Clientes</router-link>
-        <router-link to="/nuevo" @click="cerrarMenu">➕ Nuevo</router-link>
         <router-link to="/reparaciones" @click="cerrarMenu">🛠 Reparaciones</router-link>
         <router-link to="/entregas" @click="cerrarMenu">📦 Entregas</router-link>
       </nav>
