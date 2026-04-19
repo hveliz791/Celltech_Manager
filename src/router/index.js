@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-import NuevoIngreso from '../views/NuevoIngresoView.vue';
-import Reparaciones from '../views/ReparacionesView.vue';
-import Entregas from '../views/EntregasView.vue';
+import NuevoIngreso from '../Views/NuevoIngresoView.vue';
+import Reparaciones from '../Views/ReparacionesView.vue';
+import Entregas from '../Views/EntregasView.vue';
 
 const routes = [
   { path: '/', component: NuevoIngreso },
